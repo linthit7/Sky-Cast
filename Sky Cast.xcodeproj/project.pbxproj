@@ -52,13 +52,109 @@
 		184971D42BDE714C00EC7727 /* Sky Cast */ = {
 			isa = PBXGroup;
 			children = (
-				184971D52BDE714C00EC7727 /* AppDelegate.swift */,
-				184971D72BDE714C00EC7727 /* SceneDelegate.swift */,
-				184971DE2BDE714E00EC7727 /* Assets.xcassets */,
-				184971E02BDE714E00EC7727 /* LaunchScreen.storyboard */,
 				184971E32BDE714E00EC7727 /* Info.plist */,
+				184971ED2BDE741600EC7727 /* app-icons */,
+				184971EC2BDE740E00EC7727 /* app-ui */,
+				184971EB2BDE740700EC7727 /* app-settings */,
+				184971EA2BDE73FF00EC7727 /* app-modules */,
+				184971E92BDE73F000EC7727 /* common-utils */,
 			);
 			path = "Sky Cast";
+			sourceTree = "<group>";
+		};
+		184971E92BDE73F000EC7727 /* common-utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "common-utils";
+			sourceTree = "<group>";
+		};
+		184971EA2BDE73FF00EC7727 /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+				184971EE2BDE752E00EC7727 /* home-module */,
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		184971EB2BDE740700EC7727 /* app-settings */ = {
+			isa = PBXGroup;
+			children = (
+				184971D52BDE714C00EC7727 /* AppDelegate.swift */,
+				184971D72BDE714C00EC7727 /* SceneDelegate.swift */,
+			);
+			path = "app-settings";
+			sourceTree = "<group>";
+		};
+		184971EC2BDE740E00EC7727 /* app-ui */ = {
+			isa = PBXGroup;
+			children = (
+				184971E02BDE714E00EC7727 /* LaunchScreen.storyboard */,
+			);
+			path = "app-ui";
+			sourceTree = "<group>";
+		};
+		184971ED2BDE741600EC7727 /* app-icons */ = {
+			isa = PBXGroup;
+			children = (
+				184971DE2BDE714E00EC7727 /* Assets.xcassets */,
+			);
+			path = "app-icons";
+			sourceTree = "<group>";
+		};
+		184971EE2BDE752E00EC7727 /* home-module */ = {
+			isa = PBXGroup;
+			children = (
+				184971EF2BDE756200EC7727 /* view */,
+				184971F02BDE756C00EC7727 /* interactor */,
+				184971F12BDE757500EC7727 /* presenter */,
+				184971F22BDE757D00EC7727 /* entity */,
+				184971F32BDE758600EC7727 /* router */,
+				184971F42BDE759300EC7727 /* protocols */,
+			);
+			path = "home-module";
+			sourceTree = "<group>";
+		};
+		184971EF2BDE756200EC7727 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		184971F02BDE756C00EC7727 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		184971F12BDE757500EC7727 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		184971F22BDE757D00EC7727 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		184971F32BDE758600EC7727 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		184971F42BDE759300EC7727 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
