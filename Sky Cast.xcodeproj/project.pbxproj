@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		184971D62BDE714C00EC7727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184971D52BDE714C00EC7727 /* AppDelegate.swift */; };
 		184971D82BDE714C00EC7727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184971D72BDE714C00EC7727 /* SceneDelegate.swift */; };
-		184971DA2BDE714C00EC7727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184971D92BDE714C00EC7727 /* ViewController.swift */; };
-		184971DD2BDE714C00EC7727 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 184971DC2BDE714C00EC7727 /* Base */; };
 		184971DF2BDE714E00EC7727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184971DE2BDE714E00EC7727 /* Assets.xcassets */; };
 		184971E22BDE714E00EC7727 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 184971E12BDE714E00EC7727 /* Base */; };
 /* End PBXBuildFile section */
@@ -19,8 +17,6 @@
 		184971D22BDE714C00EC7727 /* Sky Cast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Cast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184971D52BDE714C00EC7727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184971D72BDE714C00EC7727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		184971D92BDE714C00EC7727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		184971DC2BDE714C00EC7727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184971DE2BDE714E00EC7727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184971E12BDE714E00EC7727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184971E32BDE714E00EC7727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 			children = (
 				184971D52BDE714C00EC7727 /* AppDelegate.swift */,
 				184971D72BDE714C00EC7727 /* SceneDelegate.swift */,
-				184971D92BDE714C00EC7727 /* ViewController.swift */,
-				184971DB2BDE714C00EC7727 /* Main.storyboard */,
 				184971DE2BDE714E00EC7727 /* Assets.xcassets */,
 				184971E02BDE714E00EC7727 /* LaunchScreen.storyboard */,
 				184971E32BDE714E00EC7727 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				184971DF2BDE714E00EC7727 /* Assets.xcassets in Resources */,
 				184971E22BDE714E00EC7727 /* Base in Resources */,
-				184971DD2BDE714C00EC7727 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184971DA2BDE714C00EC7727 /* ViewController.swift in Sources */,
 				184971D62BDE714C00EC7727 /* AppDelegate.swift in Sources */,
 				184971D82BDE714C00EC7727 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		184971DB2BDE714C00EC7727 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				184971DC2BDE714C00EC7727 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		184971E02BDE714E00EC7727 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +281,6 @@
 				INFOPLIST_FILE = "Sky Cast/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +308,6 @@
 				INFOPLIST_FILE = "Sky Cast/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
